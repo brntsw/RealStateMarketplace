@@ -38,3 +38,28 @@ Some companies and governments around the globe have already implemented blockch
 ### About OpenSea
 This is a descentralized marketplace used for selling crypto assets that are powered off Ethereum.
 It's used in this project to list the property tokens for sale.
+
+### Tests
+```
+Contract: TestERC721Mintable
+    match erc721 spec
+      ✓ should return total supply
+      ✓ should get token balance (81ms)
+      ✓ should return token uri (154ms)
+      ✓ should transfer token from one owner to another (281ms)
+    have ownership properties
+      ✓ should fail when minting when address is not contract owner (122ms)
+      ✓ should return contract owner (175ms)
+
+  Contract: TestSolnSquareVerifier
+    ✓ a new solution can be added for contract (95ms)
+    ✓ an ERC721 token can be minted for contract (2225ms)
+
+  Contract: TestSquareVerifier
+    Test verification
+      ✓ with correct proof (1021ms)
+      ✓ with incorrect proof (1121ms)
+
+
+  10 passing (14s)
+```

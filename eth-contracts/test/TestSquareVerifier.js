@@ -21,8 +21,8 @@ contract('TestSquareVerifier', async(accounts) => {
             ];
             let c = ["0x04256c19529a883485d47ad25f3cd68d5ca934e988683802b8637f4f0f2b14c9",
                     "0x2c5493e29ee807342c6bee40f59f10827edefb2b3d82db9b4fd7f51899d233bc"];
-            let inputs = ["0x0000000000000000000000000000000000000000000000000000000000000009",
-                        "0x0000000000000000000000000000000000000000000000000000000000000001"];
+            let inputs = ["0x00000000000000000000000000000000000000000000000000000000000d995b",
+                        "0x0000000000000000000000000000000000000000000000000000000000000000"];
 
             let verification = await this.verifier.verifyTx(a,b,c,inputs, {from: accounts[0]});
             assert.equal(true, verification, "The proof should be correct.");
