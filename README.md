@@ -160,3 +160,5 @@ Summary
 ### OpenSea result
 
 The result can be seen on OpenSea, in the following link: https://testnets.opensea.io/assets/brnrealstate
+
+![OpenSea](./img/brn.png)
