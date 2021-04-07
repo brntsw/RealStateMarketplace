@@ -63,3 +63,100 @@ Contract: TestERC721Mintable
 
   10 passing (14s)
 ```
+
+### Deployment
+```
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x4df34ac7301a92993b52bf3958c576b6edbf54f96eb7427254744f7664b3cfd0
+   > Blocks: 0            Seconds: 13
+   > contract address:    0x2E258D2322A734350b88da72665f68144ab93178
+   > block number:        8370452
+   > block timestamp:     1617790440
+   > account:             0xCCd8b02CCb65266F1742650131552B836DEE2617
+   > balance:             18.519109558
+   > gas used:            226537 (0x374e9)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00226537 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00226537 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x630695f2c9f363e1bf4787ad584b8bd1ecf64932609609d7004ecd6827a6982d
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x69c72FC8227A56dFeFa39598f415b8db233dA703
+   > block number:        8370454
+   > block timestamp:     1617790470
+   > account:             0xCCd8b02CCb65266F1742650131552B836DEE2617
+   > balance:             18.475878858
+   > gas used:            4277307 (0x41443b)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04277307 ETH
+
+
+   Replacing 'Verifier'
+   --------------------
+   > transaction hash:    0x7f29e9a2a295f8dbe5eea4d4ea66b8e8d38f327cb22c4600f1f6f1e2d07dcf2e
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x6A600c03b8779B197b64bf914570E0ADaD3437C8
+   > block number:        8370455
+   > block timestamp:     1617790485
+   > account:             0xCCd8b02CCb65266F1742650131552B836DEE2617
+   > balance:             18.466202308
+   > gas used:            967655 (0xec3e7)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00967655 ETH
+
+
+   Replacing 'CustomERC721Token'
+   -----------------------------
+   > transaction hash:    0x5d766071a291d876e47060e136b7af41180d39a9a0186cb8ca9a1573b20f01bf
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x0291100B65bb47cE9955d3CFc8f7bda6E3c4a836
+   > block number:        8370456
+   > block timestamp:     1617790500
+   > account:             0xCCd8b02CCb65266F1742650131552B836DEE2617
+   > balance:             18.437983408
+   > gas used:            2821890 (0x2b0f02)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0282189 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.08066852 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.08293389 ETH
+```
+
+### OpenSea result
+
+The result can be seen on OpenSea, in the following link: https://testnets.opensea.io/assets/brnrealstate
